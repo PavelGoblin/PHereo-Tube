@@ -12,8 +12,10 @@ const loadCatagories = () => {
 };
 
 //create DisplayCatagories
-const displayCatagories=(data) =>{
-  //add data in html
-  console.log(data);
+const displayCatagories=(catagories)) =>{
+ catagories.forEach(item) => {
+  console.log(item);
+ });
+  
 }
 loadCatagories();
